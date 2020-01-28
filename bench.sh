@@ -49,15 +49,13 @@ speed_test_v6() {
 
 speed_v4() {
     speed_test_v4 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
-    speed_test_v4 'http://speedtest.tokyo2.linode.com/100MB-tokyo2.bin' 'Linode, Tokyo2, JP'
-    speed_test_v4 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, Singapore, SG'
-    speed_test_v4 'http://speedtest.london.linode.com/100MB-london.bin' 'Linode, London, UK'
-    speed_test_v4 'http://speedtest.frankfurt.linode.com/100MB-frankfurt.bin' 'Linode, Frankfurt, DE'
-    speed_test_v4 'http://speedtest.fremont.linode.com/100MB-fremont.bin' 'Linode, Fremont, CA'
-    speed_test_v4 'http://speedtest.dal05.softlayer.com/downloads/test100.zip' 'Softlayer, Dallas, TX'
-    speed_test_v4 'http://speedtest.sea01.softlayer.com/downloads/test100.zip' 'Softlayer, Seattle, WA'
-    speed_test_v4 'http://speedtest.fra02.softlayer.com/downloads/test100.zip' 'Softlayer, Frankfurt, DE'
-    speed_test_v4 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, Singapore, SG'
+    speed_test_v4 'http://hnd-jp-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Tokyo2, JP'
+    speed_test_v4 'http://sgp-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Singapore, SG'
+    speed_test_v4 'http://lon-gb-ping.vultr.com/vultr.com.100MB.bin' 'VUltr, London, UK'
+    speed_test_v4 'http://fra-de-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Frankfurt, DE'
+    speed_test_v4 'http://lax-ca-us-ping.vultr.com/vultr.com.100MB.bin' 'VUltr, Los Angeles, CA'
+    speed_test_v4 'hhttp://par-fr-ping.vultr.com/vultr.com.100MB.bin' 'VUltr, Paris, France'
+    speed_test_v4 'http://sjo-ca-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Silicon Valley, Ca'
     speed_test_v4 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, HongKong, CN'
 }
 
